@@ -34,7 +34,7 @@ body{
 #content{
 
 	position: absolute;
-	top: 200px;
+	top: 0px;
 	min-height: 100%;
 	width: 1024px;
 	background-color: #FFFFFF;}
