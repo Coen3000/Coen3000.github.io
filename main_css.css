@@ -20,16 +20,24 @@ body{
 #webpage{
 	height: 100%;
 	width: 1024px;
-	margin: 0px auto 0px;
-	background-color: #FFFFFF}
+	margin: 0px auto 0px;}
 	
 #upper_bar{
 
 	position: fixed;
 	top: 0px;
-	height: 65px;
+	height: 140px;
 	width: 1024px;
 	background-color: #000000;}
+	
+#content{
+
+	position: absolute;
+	top: 140px;
+	min-height: 100%;
+	width: 1024px;
+	background: #FFFFFF;
+	z-index: -1;}
 
 </style>
 </head>
