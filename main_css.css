@@ -24,40 +24,6 @@ body{
 	width: 1024px;
 	margin: 0px auto 0px;}
 
-#upper_bar{
-
-	position: fixed;
-	top: 0px;
-	height: 65px;
-	width: 1024px;
-	background: #F0F0F0;}
-
-#lower_bar{
-
-	position: fixed;
-	top: 65px;
-	height: 75px;
-	width: 1024px;
-	background: #404040;
-	
-	border-top-left-radius:0.5em;
-	-webkit-border-top-left-radius:0.5em;
-	border-top-right-radius:0.5em;
-	-webkit-border-top-right-radius:0.5em;}
-	
-#text_div{
-
-	position: absolute;
-	top: 140px;
-	min-height: 100%;
-	width: 1024px;
-	background: #FFFFFF;
-	z-index: -1;}
-	
-#text{
-
-	margin-left: 50px;}
-
 </style>
 </head>
 
