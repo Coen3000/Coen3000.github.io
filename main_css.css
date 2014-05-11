@@ -20,6 +20,7 @@ body{
 	height: 100%;
 	width: 1024px;
 	top: 0px;
+	position: absolute;
 	margin: 0px auto 0px;
 	background-color: #FFFFFF;}
 
