@@ -4,15 +4,11 @@
 <head>
 <style type="text/css">
 
-/* Een kopie, omdat de eentje 'overgeslagen' wordt.*/
+/* Een kopie, omdat er eentje 'overgeslagen' wordt. */
 
 *{font-family:Arial,Helvetica,sans-serif;}
 
 *{font-family:Arial,Helvetica,sans-serif;}
-
-h2.positive{color:#00ff00;}
-
-h2.negative{color:#ff0000;}
 
 h1{	font-family:Arial,Helvetica,sans-serif;
 	font-size: 400%;
@@ -49,32 +45,6 @@ body{
 	border-top-right-radius:0.5em;
 	-webkit-border-top-right-radius:0.5em;}
 	
-#lower_bar1{
-
-	position: fixed;
-	top: 65px;
-	height: 75px;
-	width: 1024px;
-	background: #1e62d0;
-	
-	border-top-left-radius:0.5em;
-	-webkit-border-top-left-radius:0.5em;
-	border-top-right-radius:0.5em;
-	-webkit-border-top-right-radius:0.5em;}
-	
-#lower_bar2{
-
-	position: fixed;
-	top: 65px;
-	height: 75px;
-	width: 1024px;
-	background: #ce0100;
-	
-	border-top-left-radius:0.5em;
-	-webkit-border-top-left-radius:0.5em;
-	border-top-right-radius:0.5em;
-	-webkit-border-top-right-radius:0.5em;}
-	
 #text_div{
 
 	position: absolute;
@@ -87,178 +57,6 @@ body{
 #text{
 
 	margin-left: 50px;}
-	
-/* Afbeeldingen knoppen*/
-	
-img.homebutton{
-	
-	position: relative;
-	top: 15px;
-	left: 20px;
-	background:url(homebutton.png) 0 0;}
-	
-img.deliverables{
-
-	position: relative;
-	top: 15px;
-	left: 60px;
-	background:url(deliverables.png) 0 0;}
-	
-img.dump{
-	
-	position: relative;
-	top: 15px;
-	left: 65px;
-	background:url(dump.png) 0 0;}
-
-img.deli_1{
-	
-	position: relative;
-	top: 20px;
-	left: 100px;
-	background:url(deli_1.png) 0 0;}
-		
-img.deli_2{
-	
-	position: relative;
-	top: 20px;
-	left: 120px;
-	background:url(deli_2.png) 0 0;}
-
-img.deli_3{
-	
-	position: relative;
-	top: 20px;
-	left: 140px;
-	background:url(deli_3.png) 0 0;}
-	
-img.dump_1{
-	
-	position: relative;
-	top: 20px;
-	left: 100px;
-	background:url(dump_1.png) 0 0;}
-	
-img.dump_2{
-	
-	position: relative;
-	top: 20px;
-	left: 120px;
-	background:url(dump_2.png) 0 0;}
-	
-img.dump_3{
-	
-	position: relative;
-	top: 20px;
-	left: 140px;
-	background:url(dump_3.png) 0 0;}
-	
-/* Afbeeldingen */
-
-img.Welkom{
-	
-	position: relative;
-	left: 300px;
-	background:url(Welkom.png) 0 0;}
-
-img.deliverables_img{
-
-	position: relative;
-	
-	top: 50px;
-	left: 210px;
-	background:url(deliverables_img.png) 0 0;}
-	
-img.dump_img{
-
-	position: relative;
-	
-	top: 50px;
-	left: 350px;
-	background:url(dump_img.png) 0 0;}
-	
-img.website_schets{
-	
-	transform:rotate(90deg); 				/* Firefox, IE en Opera*/
-	-ms-transform:rotate(90deg); 			/* IE 9 */
-	-webkit-transform:rotate(90deg); 		/* Safari en Chrome */
-	
-	position: absolute;
-	height: 981px;
-	width: 694px;
-	top: 200px;
-	left: 170px;
-	background:url(Website_schets.jpeg) 0 0;}
-	
-img.hangslot{
-
-	position: absolute;
-	top: 50px;
-	left: 750px;
-	background:url(hangslot.jpg) 0 0;}
-	
-img.thermostaat{
-
-	position: absolute;
-	top: 50px;
-	left: 770px;
-	background:url(thermostaat.jpg) 0 0;}
-	
-img.dammen{
-
-	position: absolute;
-	top: 50px;
-	left: 750px;
-	background:url(dammen.png) 0 0;}
-	
-img.thermostaat_ontwerp{
-	
-	position: absolute;
-	top: 540px;
-	left: 100px;
-	background:url(thermostaat_ontwerp.png) 0 0;}
-	
-img.dammen_ontwerp{
-	
-	position: absolute;
-	top: 600px;
-	left: 50px;
-	background:url(dammen_ontwerp.png) 0 0;}
-	
-img.strip{
-	
-	position: absolute;
-	top: 300px;
-	left: 150px;
-	background:url(strip.png) 0 0;}
-	
-img.koffie_dump1{
-
-	position: relative;
-	width: 816px;
-	height: 612px;
-	background:url(koffie_dump1.jpg) 0 0;}
-	
-img.koffie_dump2{
-
-	position: relative;
-	width: 881px;
-	height: 660px;
-	background:url(koffie_dump2.jpg) 0 0;}
-	
-img.koffie_app_wireframes_schets{
-
-	position: relative;
-	width: 816px;
-	height: 612px;
-	background:url(koffie_app_wireframes_schets.JPG) 0 0;}
-	
-img.mierenspel{
-
-	position: relative;
-	width: 921px;
-	height: 691px;
-	background:url(mierenspel.png) 0 0;}
 
 </style>
 </head>
