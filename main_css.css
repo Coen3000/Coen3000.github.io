@@ -22,7 +22,7 @@ body{
 	width: 1024px;
 	margin: 0px auto 0px;}
 	
-#upper_bar{
+#header{
 
 	position: absolute;
 	top: 0px;
@@ -37,10 +37,9 @@ body{
 	top: 200px;
 	height: 100%;
 	width: 1024px;
-	background: #FFFFFF;
-	z-index: -1;}
+	background-color: #FFFFFF;}
 	
-#lower_bar{
+#footer{
 
 	position: absolute;
 	bottom: 0;
