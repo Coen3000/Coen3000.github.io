@@ -26,7 +26,7 @@ body{
 	
 #upper_bar{
 
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	height: 65px;
 	width: 1024px;
