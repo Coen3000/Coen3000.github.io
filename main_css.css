@@ -17,11 +17,10 @@ h1{
 body{
 	background-color: #F0F0F0;}
 
-#content{
+#webpage{
 	height: 100%;
 	width: 1024px;
-	margin: 0px auto 0px;
-	background-color: #FFFFFF;}
+	margin: 0px auto 0px;}
 	
 #upper_bar{
 
@@ -29,8 +28,7 @@ body{
 	top: 0px;
 	height: 65px;
 	width: 1024px;
-	margin: 0px auto 0px;
-	color: #000000;}
+	background: #F0F0F0;}
 
 </style>
 </head>
