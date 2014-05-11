@@ -33,6 +33,7 @@ body{
 	
 #content{
 	
+	position: relative;
 	width: 1024px;
 	height: 200px;
 	background-color: #FFFFFF;}
