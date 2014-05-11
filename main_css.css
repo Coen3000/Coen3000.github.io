@@ -21,7 +21,7 @@ body{
 	height: 100%;
 	width: 1024px;
 	margin: 0px auto 0px;
-	background: #FFFFFF}
+	background-color: #FFFFFF}
 	
 #upper_bar{
 
@@ -29,7 +29,7 @@ body{
 	top: 0px;
 	height: 65px;
 	width: 1024px;
-	background: blue;}
+	background-color: #000000;}
 
 </style>
 </head>
