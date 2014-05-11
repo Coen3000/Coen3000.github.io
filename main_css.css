@@ -42,8 +42,8 @@ body{
 	
 #lower_bar{
 
-	position: fixed;
-	bottom: 0px;
+	position: absolute;
+	bottom: 0;
 	left: 0px;
 	height: 50px;
 	width: 100%;
