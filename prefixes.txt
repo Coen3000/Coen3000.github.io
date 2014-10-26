@@ -1,9 +1,0 @@
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-PREFIX : <http://cdec.opendams.org/lod/shoah/>
-PREFIX persecution: <http://cdec.opendams.org/lod/shoah/persecution/>
-PREFIX person_type: <http://xmlns.com/foaf/0.1/Person>
-PREFIX label: <http://www.w3.org/2000/01/rdf-schema#label>
-
-SELECT * WHERE {?a rdf:type person_type:}
