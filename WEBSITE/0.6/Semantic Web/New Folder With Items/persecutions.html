@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  <head>
+    <meta charset="UTF-8"/>
+    
+    <style type="text/css">
+    /* Hier kan CSS */
+    </style>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>  
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" id="sgvzlr_script" src="../sgvizler.js"></script>
+    
+    <script type="text/javascript">
+    sgvizler
+          .defaultEndpointURL("http://lod.xdams.org/sparql#")
+          .prefix('default','http://cdec.opendams.org/lod/shoah/')
+          .prefix('persecution','http://cdec.opendams.org/lod/shoah/persecution/');    
+    </script>
+  </head>
+  
+  <body background="/Users/Jelle/Desktop/shoah/images/Auschwitz-Birkenau1.jpg">
+  
+  	<p> Here you can select a persecution number and view all the available connected data with the persecution Number.</p>  	
+  	
+	<!--<form>
+    <select id="names">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    
+    <input type="button" id="searchbutton" value="Search"/>
+	</form>-->
+	
+	<form>
+	
+	Number: <input type="text" name="names" id="names">
+
+	<input type="button" id="searchbutton" value="Submit">
+	</form>
+	
+	<script>
+	$(document).ready(function(){
+    	$("#searchbutton").click(function(){
+			$("#sgvzl_example").attr("data-sgvizler-query","SELECT * WHERE { persecution:" + $('#names').val() + " ?property ?value }");
+			$(document).ready(sgvizler.containerDrawAll);		
+    });
+	});
+		
+	</script>
+	
+	<div id="sgvzl_example"
+	data-sgvizler-query=""
+	data-sgvizler-chart="sgvizler.visualization.List"
+	data-sgvizler-log="2"
+	style="width:900px; height:600px; margin:0 auto"
+	></div>
+  </body>
+</html>

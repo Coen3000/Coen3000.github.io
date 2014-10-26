@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="http://sgvizler.googlecode.com/svn/tag/0.5.pre2.a/sgvizler.min.js"></script>
+
+  <script type="text/javascript">
+      
+      // Set your SPARQL endpoint address. Now it runs on a default endpoint containing geographical data.
+      
+
+	  sgvizler.option.query.endpoint = "http://lod.xdams.org/sparql/";
+
+
+
+
+	  function myQuery () {
+          // Get value from text box.          
+          var no = $("#limit").val(),
+
+          // Create query object to fill chartContainer.
+              Q = new sgvizler.query('chartContainer'),
+      
+          // Create SPARQL query using variable no.
+              query = "SELECT * " +
+                      "WHERE{?s ?p ?o } " +
+                      "ORDER BY ?p LIMIT " + no;
+      
+          // Run query and render results as according to data-sgvizler-chart.
+          Q.draw({ query: query });
+      }
+</script>
+  </head>
+<body>	
+ No. of results: <input type="text" id="limit" value="3"/>
+      <input type="button" value="GO!" onclick="myQuery()"/>
+      <div id="chartContainer"
+           data-sgvizler-chart="sTable" 
+           style="width: 800px; height: 600px"
+           data-sgvizler-loglevel="2"></div>	
+</body>
+</html>
