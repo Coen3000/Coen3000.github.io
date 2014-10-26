@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_08c39dda_0b2f_40c1_a469_03b837ea589f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_08c39dda_0b2f_40c1_a469_03b837ea589f">
+        <rdfs:label xml:lang="nl">Golling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_0ecd0bdb_38d6_4efd_a13f_9d6e13551977 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_0ecd0bdb_38d6_4efd_a13f_9d6e13551977">
+        <rdfs:label xml:lang="nl">dateOfDeath</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_1c60741c_8959_43dd_8b7c_48bcb2385850 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_1c60741c_8959_43dd_8b7c_48bcb2385850">
+        <rdfs:label xml:lang="nl">departureDate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_266f8644_0000_49e6_a647_20ae4208690c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_266f8644_0000_49e6_a647_20ae4208690c">
+        <rdfs:label xml:lang="nl">consortOf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_27cb4912_3888_4d6f_ae94_ac1a97b8885d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_27cb4912_3888_4d6f_ae94_ac1a97b8885d">
+        <rdfs:label xml:lang="nl">Natzweiler</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_2cfd6d85_4edf_4010_bb50_c2364bb53ba9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_2cfd6d85_4edf_4010_bb50_c2364bb53ba9">
+        <rdfs:label xml:lang="nl">dateOfBirth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_3016786e_57d2_4339_9d6c_68da40e958a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_3016786e_57d2_4339_9d6c_68da40e958a4">
+        <rdfs:label xml:lang="nl">Pulenkircher</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_349d9df6_08c5_418c_a240_7609dd79f018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_349d9df6_08c5_418c_a240_7609dd79f018">
+        <rdfs:label xml:lang="nl">motherOf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_36e1d486_728a_4a40_9ebf_2e7aa34fbbfa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_36e1d486_728a_4a40_9ebf_2e7aa34fbbfa">
+        <rdfs:label xml:lang="nl">Ravensbrueck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff">
+        <rdfs:label xml:lang="nl">Persecutions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_43000270_37e9_4c04_bc32_f7b11b6943f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_43000270_37e9_4c04_bc32_f7b11b6943f7">
+        <rdfs:label xml:lang="nl">Meppen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_46c784b3_972f_4b36_b9c9_f497a7733117 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_46c784b3_972f_4b36_b9c9_f497a7733117">
+        <rdfs:label xml:lang="nl">Markt Pongau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_4750ec89_d4c2_4a09_aee2_0096a69d7ea9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_4750ec89_d4c2_4a09_aee2_0096a69d7ea9">
+        <rdfs:label xml:lang="nl">fatherOf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_53c263b0_39ab_457f_905f_b11a147db7c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_53c263b0_39ab_457f_905f_b11a147db7c5">
+        <rdfs:label xml:lang="nl">shoahSurvivor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_563d7d78_529a_46d4_8e59_a7984f4ef74c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_563d7d78_529a_46d4_8e59_a7984f4ef74c">
+        <rdfs:label xml:lang="nl">districtOfResidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_582befaa_0854_4146_84e7_e88e236679ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_582befaa_0854_4146_84e7_e88e236679ae">
+        <rdfs:label xml:lang="nl">Reichenau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_59298dab_a7d2_471b_b33c_4694ab3c66f8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_59298dab_a7d2_471b_b33c_4694ab3c66f8">
+        <rdfs:label xml:lang="nl">Fort Breendonk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_5e31691b_70e9_451d_b1a9_a95b6575b3a2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_5e31691b_70e9_451d_b1a9_a95b6575b3a2">
+        <rdfs:label xml:lang="nl">Innsbruck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_670a7d44_a634_42c5_bcf4_5de3b4306cbd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_670a7d44_a634_42c5_bcf4_5de3b4306cbd">
+        <rdfs:label xml:lang="nl">Auschwitz</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7ad1c2d5_a073_4bc1_a81b_cd7cae231681 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7ad1c2d5_a073_4bc1_a81b_cd7cae231681">
+        <rdfs:label xml:lang="nl">viaggo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7cedc6fe_bc2e_4723_b8e7_b3a41a309075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7cedc6fe_bc2e_4723_b8e7_b3a41a309075">
+        <rdfs:label xml:lang="nl">Buchenwald</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8b42b236_c2d3_434d_ad3f_f581871537f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8b42b236_c2d3_434d_ad3f_f581871537f3">
+        <rdfs:label xml:lang="nl">toNaziCampLabel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8ccfddc7_9b72_4e0a_87c1_ab2bdc5f3a96 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8ccfddc7_9b72_4e0a_87c1_ab2bdc5f3a96">
+        <rdfs:label xml:lang="nl">incerto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8d1671bf_2101_4489_b2dc_96c73faca13e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8d1671bf_2101_4489_b2dc_96c73faca13e">
+        <rdfs:label xml:lang="nl">detentionPlace</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3">
+        <rdfs:label xml:lang="nl">Persons</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_97162344_844b_45c4_981d_19093434e94f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_97162344_844b_45c4_981d_19093434e94f">
+        <rdfs:label xml:lang="nl">placeOfBirth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_99561b58_cf61_432a_8898_1da48c4a9237 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_99561b58_cf61_432a_8898_1da48c4a9237">
+        <rdfs:label xml:lang="nl">arrestDate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_9e049444_9a04_41ed_b472_2b29a799e07d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_9e049444_9a04_41ed_b472_2b29a799e07d">
+        <rdfs:label xml:lang="nl">abstract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_a1026542_ecd9_4132_a694_5d5d39626765 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_a1026542_ecd9_4132_a694_5d5d39626765">
+        <rdfs:label xml:lang="nl">arrestPlace</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_ab633b3e_5f17_4f10_aaae_6b3811596a1a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_ab633b3e_5f17_4f10_aaae_6b3811596a1a">
+        <rdfs:label xml:lang="nl">gender</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b87f1b56_ba38_4b8a_876e_a80734ca9f0c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b87f1b56_ba38_4b8a_876e_a80734ca9f0c">
+        <rdfs:label xml:lang="nl">Dachau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b975947e_7532_4ef1_9a44_f11fdacb3e97 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b975947e_7532_4ef1_9a44_f11fdacb3e97">
+        <rdfs:label xml:lang="nl">brother_sisterOf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_cb5b0205_2ccd_4e05_beda_7b33b349e2cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_cb5b0205_2ccd_4e05_beda_7b33b349e2cd">
+        <rdfs:label xml:lang="nl">widowOf</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d2069328_507d_4e37_afe9_cf751de0299b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d2069328_507d_4e37_afe9_cf751de0299b">
+        <rdfs:label xml:lang="nl">arrivalDate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec">
+        <rdfs:label xml:lang="nl">Relations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_dbc9ccda_f8ab_489a_b54e_9804801b4489 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_dbc9ccda_f8ab_489a_b54e_9804801b4489">
+        <rdfs:label xml:lang="nl">persecution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_38f46ef9_9a84_4b6f_9dfa_dee75ecd54ff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec">
+        <rdfs:label xml:lang="nl">Locations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e4c3e61e_2146_41e5_9d9b_4884ace37e90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e4c3e61e_2146_41e5_9d9b_4884ace37e90">
+        <rdfs:label xml:lang="nl">Mannheim</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e75b72e8_deec_42eb_8556_df9f5b57f9b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e75b72e8_deec_42eb_8556_df9f5b57f9b8">
+        <rdfs:label xml:lang="nl">Bergen Belsen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_f45c5451_78da_4dfb_9711_7e9f1dd79958 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_f45c5451_78da_4dfb_9711_7e9f1dd79958">
+        <rdfs:label xml:lang="nl">Flossenburg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_0ecd0bdb_38d6_4efd_a13f_9d6e13551977"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_2cfd6d85_4edf_4010_bb50_c2364bb53ba9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_53c263b0_39ab_457f_905f_b11a147db7c5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_563d7d78_529a_46d4_8e59_a7984f4ef74c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_97162344_844b_45c4_981d_19093434e94f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_ab633b3e_5f17_4f10_aaae_6b3811596a1a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_08c39dda_0b2f_40c1_a469_03b837ea589f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_27cb4912_3888_4d6f_ae94_ac1a97b8885d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_3016786e_57d2_4339_9d6c_68da40e958a4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_36e1d486_728a_4a40_9ebf_2e7aa34fbbfa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_43000270_37e9_4c04_bc32_f7b11b6943f7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_46c784b3_972f_4b36_b9c9_f497a7733117"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_582befaa_0854_4146_84e7_e88e236679ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_59298dab_a7d2_471b_b33c_4694ab3c66f8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_5e31691b_70e9_451d_b1a9_a95b6575b3a2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_670a7d44_a634_42c5_bcf4_5de3b4306cbd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7ad1c2d5_a073_4bc1_a81b_cd7cae231681"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_7cedc6fe_bc2e_4723_b8e7_b3a41a309075"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8ccfddc7_9b72_4e0a_87c1_ab2bdc5f3a96"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b87f1b56_ba38_4b8a_876e_a80734ca9f0c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e4c3e61e_2146_41e5_9d9b_4884ace37e90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e75b72e8_deec_42eb_8556_df9f5b57f9b8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_f45c5451_78da_4dfb_9711_7e9f1dd79958"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_1c60741c_8959_43dd_8b7c_48bcb2385850"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8b42b236_c2d3_434d_ad3f_f581871537f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_8d1671bf_2101_4489_b2dc_96c73faca13e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_99561b58_cf61_432a_8898_1da48c4a9237"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_9e049444_9a04_41ed_b472_2b29a799e07d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_a1026542_ecd9_4132_a694_5d5d39626765"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d2069328_507d_4e37_afe9_cf751de0299b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_dbc9ccda_f8ab_489a_b54e_9804801b4489"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_266f8644_0000_49e6_a647_20ae4208690c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_349d9df6_08c5_418c_a240_7609dd79f018"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_4750ec89_d4c2_4a09_aee2_0096a69d7ea9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_b975947e_7532_4ef1_9a44_f11fdacb3e97"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_cb5b0205_2ccd_4e05_beda_7b33b349e2cd"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_94905377_6d5d_4b71_b700_0f130143d6b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_d4fafd42_c3f2_4fd4_9570_be307d20eaec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jelle/ontologies/2014/9/untitled-ontology-33#OWLClass_e2966651_05ec_4a95_90a0_f81fd4caf5ec"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+PREFIX owl: <http://www.w3.org/2002/07/owl#>\
+\
+PREFIX : <http://www.data2semantics.org/data/WT_1947_A3_T1_marked/>\
+PREFIX dataset: <http://www.data2semantics.org/data/WT_1947_A3_T1_marked/Tabel_1/>\
+\
+PREFIX d2s: <http://www.data2semantics.org/core/>\
+PREFIX qb: <http://purl.org/linked-data/cube#>\
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\
+\
+SELECT * WHERE\{\
+dataset:C9 ?a ?b\
+\}\
+\
+\
+\
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1\fs22 \cf0 \CocoaLigature0 java -Xmx1200M -jar jena-fuseki-1.1.0-server.jar --update --config=config-inf-tdb.ttl}
