@@ -1,0 +1,132 @@
+body {
+  min-width: none;
+  min-height: nonepx;
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.container {
+  float: left;
+  width: 97.5625%;
+  height: 1176px;
+  margin-top: -5px;
+}
+
+.element {
+  position: relative;
+  float: left;
+  width: 102.4983984625%;
+  margin-left: -0.32031%;
+  background-color: rgb(222, 222, 222);
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 3;
+  width: 528px;
+  height: auto;
+  margin: -89px 0 0 68.35362%;
+  overflow: scroll;
+}
+
+.text {
+  position: relative;
+  float: left;
+  clear: both;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.element-1 {
+  z-index: 0;
+  height: 1051px;
+  margin-top: 5px;
+  background-image: url('../images/auschwits.gif');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.element-2 {
+  clear: both;
+  z-index: 1;
+  height: 89px;
+}
+
+.text-1 {
+  z-index: 4;
+  width: 27.0595771941%;
+  min-height: 165px;
+  margin: -920px 0 0 65.18858%;
+}
+
+.text-2 {
+  z-index: 2;
+  width: 28.7375880845%;
+  min-height: 35px;
+  margin: -57px 0 0 1.28123%;
+}
+
+.text-1 span {
+  color: rgb(249, 247, 247);
+}
+
+@media(max-width: 1200px) {
+  .container .element {
+    position: relative;
+  }
+
+  .container .image {
+    position: relative;
+    z-index: 3;
+    height: auto;
+  }
+
+  .container .text {
+    position: relative;
+  }
+
+  .container .element-1 {
+    z-index: 0;
+  }
+
+  .container .element-2 {
+    z-index: 1;
+  }
+
+  .container .text-1 {
+    z-index: 4;
+    margin-left: 65.18791%;
+  }
+
+  .container .text-2 {
+    z-index: 2;
+  }
+
+  .text-2 span {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
